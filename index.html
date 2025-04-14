@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Digital Portfolio - Mechanical Engineer</title>
+  <meta charset="UTF-8">
+  <style>
+    /* Navigation Styling and Hover Effects */
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #2980b9;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      color: #c0392b;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    /* Existing Hover Effects and Transitions */
+    .section-card, .project-title, .skill, .contact-info, h3, .experience-block, .footer-link {
+      transition: all 0.3s ease;
+    }
+    .section-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+    .project-title:hover {
+      color: #c0392b;
+      transform: scale(1.03);
+      cursor: pointer;
+    }
+    .skill:hover {
+      background-color: #e6f3fa;
+      transform: translateY(-2px);
+      cursor: pointer;
+    }
+    .contact-info:hover {
+      color: #c0392b;
+      cursor: pointer;
+    }
+    h3:hover {
+      color: #c0392b;
+      cursor: pointer;
+    }
+    .experience-block:hover {
+      transform: scale(1.02);
+      cursor: pointer;
+    }
+    .footer-link:hover {
+      transform: scale(1.05);
+      color: #c0392b;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #fafafa; color: #333;">
+
+  <!-- Header Section -->
+  <header style="background-color: #2c3e50; color: #ecf0f1; padding: 40px 20px; text-align: center;">
+    <h1 style="margin: 0; font-size: 36px;">Siddharth Navatre</h1>
+    <h2 style="margin: 10px 0 0; font-size: 24px; font-weight: 300;">Mechanical Engineer</h2>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav style="background-color: #34495e; padding: 10px; text-align: center;">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="section-card" style="padding: 40px 20px; background-color: #ffffff; margin: 20px auto; max-width: 900px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 28px; color: #2980b9; text-align: center; margin-bottom: 20px;">About Me</h3>
+    <p style="max-width: 700px; margin: auto; line-height: 1.6; font-size: 18px; text-align: center;">
+      I am Siddharth Navatre, a passionate mechanical engineer with a strong background in design and manufacturing.
+      My goal is to leverage my technical expertise to create innovative solutions that meet the demands of a rapidly evolving industry.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section-card" style="padding: 40px 20px; background-color: #ffffff; margin: 20px auto; max-width: 900px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 28px; color: #2980b9; text-align: center; margin-bottom: 20px;">Education</h3>
+    <ul style="list-style-type: none; padding: 0; max-width: 600px; margin: auto; font-size: 18px;">
+      <li style="margin-bottom: 20px; text-align: center;">
+        <strong>Bachelor of Technology in Mechanical Engineering</strong><br>
+        MIT Academy Of Engineering (2024 - 2028)
+      </li>
+      <li style="margin-bottom: 20px; text-align: center;">
+        <strong>Master of Science in Mechanical Engineering</strong><br>
+        ABC Institute
+      </li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-card" style="padding: 40px 20px; background-color: #ffffff; margin: 20px auto; max-width: 900px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 28px; color: #2980b9; text-align: center; margin-bottom: 20px;">Skills</h3>
+    <ul style="list-style-type: none; padding: 0; max-width: 600px; margin: auto; font-size: 18px; columns: 2; column-gap: 40px;">
+      <li class="skill" style="padding: 8px; border-radius: 4px;">CAD Design (SolidWorks, AutoCAD)</li>
+      <li class="skill" style="padding: 8px; border-radius: 4px;">Finite Element Analysis</li>
+      <li class="skill" style="padding: 8px; border-radius: 4px;">Thermodynamics</li>
+      <li class="skill" style="padding: 8px; border-radius: 4px;">Project Management</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section-card" style="padding: 40px 20px; background-color: #ffffff; margin: 20px auto; max-width: 900px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 28px; color: #2980b9; text-align: center; margin-bottom: 20px;">Experience</h3>
+    <div class="experience-block" style="max-width: 800px; margin: auto; font-size: 18px;">
+      <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Developed and optimized mechanical components using advanced CAD modeling.</li>
+        <li>Collaborated with cross-functional teams to ensure product quality and timely delivery.</li>
+        <li>Conducted stress analysis and validated designs through simulation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-card" style="padding: 40px 20px; background-color: #ffffff; margin: 20px auto; max-width: 900px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 28px; color: #2980b9; text-align: center; margin-bottom: 20px;">Projects</h3>
+    <ul style="list-style-type: none; padding: 0; max-width: 600px; margin: auto; font-size: 18px;">
+      <li style="margin-bottom: 20px; text-align: center;">
+        <strong class="project-title">Project 1: Innovative Turbine Design</strong><br>
+      </li>
+      <li style="margin-bottom: 20px; text-align: center;">
+        <strong class="project-title">Project 2: Automated Assembly System</strong><br>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contact / Footer Section -->
+  <footer style="background-color: #2c3e50; color: #ecf0f1; padding: 20px; text-align: center; font-size: 18px;">
+    <p style="margin: 0;">
+      Email: <span class="contact-info footer-link">siddharth@gmail.com</span> | 
+      Phone: <span class="contact-info footer-link">+91 993422134334</span>
+    </p>
+  </footer>
+
+</body>
+</html>
